@@ -1,0 +1,106 @@
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 75px 25px;
+  width: 100%;
+  background: #C4DFAA;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .current_month_cal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 10px;
+  text-transform: lowercase;
+
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 5px 10px 5px;
+  background: #eee;
+  margin: 0;
+  
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  top: 5px;
+  right: 5px;
+  padding: 20px 0;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: black;
+}
+
+/* Adds boarder around just the lists that are calendar days, not the empty day lists */
+.days .calendar_days {
+  border:3px solid white;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+.days li a {
+  text-align: center;
+}
+
+/* edits any <a> tags so there is no underline and changs color*/
+a {text-decoration: none; color: #55a6acc5}
+
+/* keeps the link color the same as before it was clicked on after it is visited */
+a:visited {color: #55a6acc5}
+
+.key {
+  height: 75px;
+}
+/* edit positioning of key text within key container */
+.key p {
+  position: relative; 
+  /* bottom: 10px; */
+  text-align: center; 
+  font-size: 15px;
+}
