@@ -14,12 +14,13 @@ Go to the directory after activating Virtual env.
 
 bash```
 pip3 install -r requirements.txt
-```
-After the successfull installtion of the packages. 
+    ```
+
+###After the successfull installtion of the packages. 
 
 bash```
 py app.py
-```
+    ```
 #### The APP will start at `http://127.0.0.1:5000`.
 
 
