@@ -1,28 +1,25 @@
-## Python Flask Authentication
+# Period Tracker
 
-This repository contains the code used in the Python Flask Authentication [video](https://www.youtube.com/watch?v=71EU8gnZqZQ) uploaded on [my YouTube channel](https://www.youtube.com/watch?v=71EU8gnZqZQ).
+## Overview
 
-## Installation
+Period Tracker is a Python flask application that tracks user's menstrual cycle's while simultaneously predicting future cycles. Period Tracker allows users to specify when menstruation starts and stops.
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required dependencies
 
-##### Windows:
-```zsh
-pip install -r requirements.txt 
-```
 
-##### macOS/Linux:
-```zsh
+### Installation/Setup
+
+Setup a Python Virtual enviornment
+
+Go to the directory after activating Virtual env.
+
+bash```
 pip3 install -r requirements.txt
 ```
+After the successfull installtion of the packages. 
 
-## Usage
+bash```
+py app.py
+```
+#### The APP will start at `http://127.0.0.1:5000`.
 
-##### Windows:
-```zsh
-python app.py
-```
-##### macOS/Linux:
-```zsh
-python3 app.py
-```
+
